@@ -38,6 +38,7 @@ class BooksApp extends React.Component {
       <Route path='/search' render={()=>(
         <Search
         mudarShelf={this.mudarShelf}
+        books = {this.state.books}
         />
       )}/>
       </div>
